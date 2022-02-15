@@ -1,0 +1,12 @@
+.header {
+    padding-top: 73px;
+
+    @include breakpoint('md') {
+        padding-top: 112px;
+    }
+
+    &__logo {
+        max-width: 168px;
+        width: 100%;
+    }
+}

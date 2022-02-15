@@ -1,0 +1,11 @@
+.sketch {
+    padding-bottom: 128px;
+
+    @include breakpoint('md') {
+        padding-bottom: 56px;
+    }
+
+    @include breakpoint('xs') {
+        padding-bottom: 64px;
+    }
+}

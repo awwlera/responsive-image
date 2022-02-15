@@ -1,0 +1,11 @@
+.user-research {
+    padding-bottom: 128px;
+
+    @include breakpoint('md') {
+        padding-bottom: 70px;
+    }
+
+    @include breakpoint('xs') {
+        padding-bottom: 64px;
+    }
+}

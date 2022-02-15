@@ -1,0 +1,19 @@
+.overview {
+    padding-bottom: 211px;
+
+    @include breakpoint('md') {
+        padding-bottom: 81px;
+    }
+
+    @include breakpoint('xs') {
+        padding-bottom: 65px;
+    }
+
+    .text-holder {
+        width: 50%;
+
+        @include breakpoint('md') {
+            width: 100%;
+        }
+    }
+}
